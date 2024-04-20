@@ -11,3 +11,10 @@ export * from "./middlewares/current-user";
 export * from "./middlewares/error-handler";
 export * from "./middlewares/require-auth";
 export * from "./middlewares/validateRequest";
+
+// EVENTS
+export * from "./events/Listener";
+export * from "./events/Publisher";
+export * from "./events/subjects";
+export * from "./events/ticketCreatedEvent";
+export * from "./events/ticketUpdatedEvent";
